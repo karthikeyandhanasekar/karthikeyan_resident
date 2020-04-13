@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.doorstep_resident"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml
+10    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+12-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+13-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:22-64
+14    <!--
+15 io.flutter.app.FlutterApplication is an android.app.Application that
+16         calls FlutterMain.startInitialization(this); in its onCreate method.
+17         In most cases you can leave this as-is, but you if you want to provide
+18         additional functionality it is fine to subclass or reimplement
+19         FlutterApplication and put your custom class here.
+20    -->
+21    <application
+21-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:8:5-29:19
+22        android:name="io.flutter.app.FlutterApplication"
+22-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:9:9-57
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\df6cf23cc51da578d8b158de17d0c9cb\core-1.0.0\AndroidManifest.xml:22:18-86
+24        android:icon="@mipmap/apartment"
+24-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:11:9-41
+25        android:label="DoorStep_Resident" > <!-- icon changed -->
+25-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:10:9-42
+26        <activity
+26-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:12:9-23:20
+27            android:name="com.example.doorstep_resident.MainActivity"
+27-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:13:13-41
+28            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+28-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:16:13-163
+29            android:hardwareAccelerated="true"
+29-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:17:13-47
+30            android:launchMode="singleTop"
+30-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:14:13-43
+31            android:theme="@style/LaunchTheme"
+31-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:15:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:18:13-55
+33            <intent-filter>
+33-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:20:17-68
+34-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:21:17-76
+36-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39        <!--
+40             Don't delete the meta-data below.
+41             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+42        -->
+43        <meta-data
+43-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:26:9-28:33
+44            android:name="flutterEmbedding"
+44-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:27:13-44
+45            android:value="2" />
+45-->E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:28:13-30
+46
+47        <service
+47-->[:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+51            <meta-data
+51-->[:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+52                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+52-->[:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+54            <meta-data
+54-->[:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+55                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+55-->[:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-133
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+57            <meta-data
+57-->[:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+58                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+58-->[:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+60            <meta-data
+60-->[:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+61                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+61-->[:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+64                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+64-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+67                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+67-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+69            <meta-data
+69-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+70                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+70-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+72        </service>
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+75            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+75-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+79            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+79-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+80            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+80-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+85
+86        <provider
+86-->[com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+87            android:name="com.google.firebase.provider.FirebaseInitProvider"
+87-->[com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+88            android:authorities="com.example.doorstep_resident.firebaseinitprovider"
+88-->[com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+89            android:exported="false"
+89-->[com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+90            android:initOrder="100" />
+90-->[com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+91
+92        <meta-data
+92-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+93            android:name="com.google.android.gms.version"
+93-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+94            android:value="@integer/google_play_services_version" />
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+95    </application>
+96
+97</manifest>
