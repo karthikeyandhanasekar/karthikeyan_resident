@@ -13,7 +13,7 @@ class Show extends StatefulWidget {
 }
 
 class _ShowState extends State<Show> {
-  Future<void> logout(BuildContext context) async {
+  Future<void> logout(BuildContext context) async {                            //logout function
     try {
       await AuthService().signout();
     } catch (e) {
@@ -29,7 +29,7 @@ class _ShowState extends State<Show> {
     }
   }
 
-  Future<void> confirmsignout(BuildContext context) async {
+  Future<void> confirmsignout(BuildContext context) async {                       //display dialog whether logout or not
     final didrequest = await PlatformAlertDialog(
       title: 'Log out',
       content: 'Are you sure',
@@ -48,10 +48,10 @@ class _ShowState extends State<Show> {
         elevation: 20.0,
         actions: <Widget>[
           IconButton(
-              icon: Icon(Icons.attach_money),
+              icon: Icon(Icons.attach_money),                                 //button to enter to payment page
               onPressed: () => Navigator.of(context)
                   .push(MaterialPageRoute(builder: (context) => Payment()))),
-          IconButton(
+          IconButton(                                                              //button to logout
               icon: Icon(Icons.backspace),
               onPressed: () => confirmsignout(context)),
         ],
@@ -82,7 +82,7 @@ class _ShowState extends State<Show> {
                         color: Theme.of(context).cardColor,
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Text(
+                          child: Text(                                             //here the data retrive from firestore
                             '  DoorStep Security Services \n\n Visitor: ${datarev.Customername}\n Visitor number: ${datarev.Customernumber},\n Block ID: ${datarev.blockid},\n Door No: ${datarev.doorno},\n Date: ${datarev.date}\n Time: ${datarev.time}\n Reason: ${datarev.reason}',
                             textAlign: TextAlign.left,
                             style: TextStyle(
@@ -98,10 +98,10 @@ class _ShowState extends State<Show> {
                 .toList();
             return ListView(children: children);
           }
-          return Center(
+          return Center(                          //Loading screen process
             child: Column(
               children: <Widget>[
-                 LoadingBouncingGrid.circle(),
+                 LoadingBouncingGrid.circle(),             
                Text("Your session has expired, Please  login again",
                textAlign: TextAlign.center,
                             style: TextStyle(
