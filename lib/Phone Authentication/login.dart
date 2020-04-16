@@ -18,7 +18,7 @@ String verificationid, smscode;
 bool codesend = false;
 
 class _SigninState extends State<PhoneSignin> {
-  Widget showPhoneInput() {
+  Widget showPhoneInput() {                         //phone input
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 25.0, 0.0, 0.0),
       child: new TextFormField(
@@ -40,7 +40,7 @@ class _SigninState extends State<PhoneSignin> {
     );
   }
 
-  Widget showSMSInput() {
+  Widget showSMSInput() {               //sms code input
     return Padding(
       padding: const EdgeInsets.fromLTRB(0.0, 15.0, 0.0, 0.0),
       child: new TextFormField(
@@ -95,21 +95,21 @@ class _SigninState extends State<PhoneSignin> {
                 SizedBox(
                   height: 10.0,
                 ),
-                codesend ? showSMSInput() : Container(),
+                codesend ? showSMSInput() : Container(),         // ternary operator used , if(codesend) showSMSInput() else Container()
                 SizedBox(
                   height: 10.0,
                 ),
-                loginbutton(),
+                loginbutton(),              //login button  function
               ],
             )));
   }
 
   Widget loginbutton() {
     return FlatButton(
-      onPressed: () => codesend
+      onPressed: () => codesend                                                    //ternary operator is used 
           ? AuthService().signinWithOTP(smscode, verificationid)
           : verifyphoneno(phoneNumController.text.toString(), context),
-      child: codesend
+      child: codesend                                                              //just name changed based on codesent
           ? Text(
               "Login",
               style: TextStyle(color: Colors.indigo, fontSize: 16),
