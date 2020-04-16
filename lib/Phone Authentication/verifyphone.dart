@@ -3,7 +3,7 @@ import 'package:doorstep_resident/Phone%20Authentication/login.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-Future<void> verifyphoneno(
+Future<void> verifyphoneno(                                        //This page is fully about phone verification process
     phoneno,
     BuildContext
         context) async // function that handle all the process of phone auth
@@ -34,7 +34,7 @@ Future<void> verifyphoneno(
           });
     };
 
-    final PhoneCodeSent codesent =
+    final PhoneCodeSent codesent =                                          
         (String verID, [int Forceresent]) //otp send to user var
         {
       verificationid = verID;
@@ -44,7 +44,7 @@ Future<void> verifyphoneno(
       verificationid = verID;
     };
 
-    await FirebaseAuth.instance.verifyPhoneNumber(
+    await FirebaseAuth.instance.verifyPhoneNumber(                             //firebase verifiying phone build-in function 
         phoneNumber: "+91" + phoneNumController.text.toString(),
         timeout: const Duration(seconds: 4),
         verificationCompleted: verificationCompleted,
