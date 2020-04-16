@@ -19,11 +19,11 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primaryColor: Colors.indigo[700],
             accentColor: Colors.indigo,
-            backgroundColor: Colors.indigo[100],
-            cardColor: Colors.indigo[100],
+            backgroundColor: Colors.indigo[100],                           // change background color for all pages
+            cardColor: Colors.indigo[100],                                 // change card color for all the card used
           ),
-          darkTheme: ThemeData.dark(),
-          debugShowCheckedModeBanner: false,
+          darkTheme: ThemeData.dark(),                                    //dark theme 
+          debugShowCheckedModeBanner: false,                               // It hide the debug banner while in debug mode
           home: AuthService().handleAuth(),)
     );
   }
