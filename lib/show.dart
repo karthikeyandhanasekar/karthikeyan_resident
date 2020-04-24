@@ -142,7 +142,7 @@ class _ShowState extends State<Show> {
                                             width: 1.0,
                                             color: Colors.white24))),
                                 child: Text(
-                                  '${datarev.company}\n${datarev.reason}',
+                                  '${datarev.type}\n${datarev.reason}',
                                   style: TextStyle(
                                       fontSize: 12,
                                       color: Colors.tealAccent,

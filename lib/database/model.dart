@@ -9,7 +9,7 @@ class Senddata {
       @required this.date,
       @required this.doorno,
       @required this.time,
-      @required this.company,
+      @required this.type,
       @required this.reason});
   final String id;
   final String Customername;
@@ -19,7 +19,7 @@ class Senddata {
   final String date;
   final String reason;
   final String time;
-  final String company;
+  final String type;
 
   // while using factory keyboard constructor doesn't always create a new instance of class
 
@@ -34,7 +34,7 @@ class Senddata {
     final String date = data['Date'];
     final String time = data['Time'];
     final String reason = data['Reason'];
-    final String company = data['Company'];
+    final String type = data['Type'];
 
     return Senddata(
         blockid: block,
@@ -44,7 +44,7 @@ class Senddata {
         date: date,
         doorno: door,
         time: time,
-        company: company,
+        type: type,
         reason: reason);
   }
 
