@@ -5,25 +5,21 @@ INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidMani
 INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:1:1-30:12
 INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:1:1-30:12
 MERGED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:1:1-30:12
-MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_auth_web] E:\DoorStep (Phone auth)\resident\build\firebase_auth_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core_web] E:\DoorStep (Phone auth)\resident\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:flutter_sms] E:\DoorStep (Phone auth)\resident\build\flutter_sms\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
-MERGED from [:upi_india] E:\DoorStep (Phone auth)\resident\build\upi_india\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher_macos] E:\DoorStep (Phone auth)\resident\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:firebase_auth_web] E:\DoorStep (Phone auth)\resident\build\firebase_auth_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:share] E:\DoorStep (Phone auth)\resident\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
-MERGED from [:url_launcher_web] E:\DoorStep (Phone auth)\resident\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:upi_india] E:\DoorStep (Phone auth)\resident\build\upi_india\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c7d953acc55dc4b3e953472bb182ad56\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:15:1-37:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327c7201b4916aaeadaad491d49f0473\firebase-auth-interop-19.0.0\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0bef4825910dfde9d1394554b46b96ad\play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\a54bef134b044d236c1e994e73f3da3f\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -43,9 +39,9 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\karthikeyan\.
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\815016ef3aebfedeaa2d6423587d9f8e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\177cc4424ff59fc27b8bf556be7daa63\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0a67c6ac479c7b252cb96801ba61ddf3\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\374d04eee9fd51d7ba45d29c280696cf\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\00c47af6a5c38c31b977843da568d35b\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\3c765db1ed5a358b855c88f3ebc4e5cb\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\374d04eee9fd51d7ba45d29c280696cf\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\e39ea6fc52811cacf50dc270a17f570b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\aefbed8c442a61c20bbad6e44b256226\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c0bcbfb021564b3b41a4611a164498f0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -72,28 +68,26 @@ INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\debug\AndroidMan
 		ADDED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:1:11-69
 application
 ADDED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml:8:5-29:19
-MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
-MERGED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
-MERGED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:29:5-35:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327c7201b4916aaeadaad491d49f0473\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327c7201b4916aaeadaad491d49f0473\firebase-auth-interop-19.0.0\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0bef4825910dfde9d1394554b46b96ad\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0bef4825910dfde9d1394554b46b96ad\play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
@@ -144,44 +138,36 @@ uses-sdk
 INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml
 INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth_web] E:\DoorStep (Phone auth)\resident\build\firebase_auth_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_auth_web] E:\DoorStep (Phone auth)\resident\build\firebase_auth_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] E:\DoorStep (Phone auth)\resident\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core_web] E:\DoorStep (Phone auth)\resident\build\firebase_core_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_sms] E:\DoorStep (Phone auth)\resident\build\flutter_sms\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:flutter_sms] E:\DoorStep (Phone auth)\resident\build\flutter_sms\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:upi_india] E:\DoorStep (Phone auth)\resident\build\upi_india\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:upi_india] E:\DoorStep (Phone auth)\resident\build\upi_india\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_macos] E:\DoorStep (Phone auth)\resident\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_macos] E:\DoorStep (Phone auth)\resident\build\url_launcher_macos\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] E:\DoorStep (Phone auth)\resident\build\firebase_auth_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_auth_web] E:\DoorStep (Phone auth)\resident\build\firebase_auth_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:share] E:\DoorStep (Phone auth)\resident\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:share] E:\DoorStep (Phone auth)\resident\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_web] E:\DoorStep (Phone auth)\resident\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:url_launcher_web] E:\DoorStep (Phone auth)\resident\build\url_launcher_web\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:upi_india] E:\DoorStep (Phone auth)\resident\build\upi_india\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:upi_india] E:\DoorStep (Phone auth)\resident\build\upi_india\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c7d953acc55dc4b3e953472bb182ad56\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c7d953acc55dc4b3e953472bb182ad56\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327c7201b4916aaeadaad491d49f0473\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327c7201b4916aaeadaad491d49f0473\firebase-auth-interop-19.0.0\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0bef4825910dfde9d1394554b46b96ad\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0bef4825910dfde9d1394554b46b96ad\play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
@@ -220,12 +206,12 @@ MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\karthikeyan\.gradle
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\177cc4424ff59fc27b8bf556be7daa63\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0a67c6ac479c7b252cb96801ba61ddf3\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\0a67c6ac479c7b252cb96801ba61ddf3\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\374d04eee9fd51d7ba45d29c280696cf\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\374d04eee9fd51d7ba45d29c280696cf\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\00c47af6a5c38c31b977843da568d35b\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\00c47af6a5c38c31b977843da568d35b\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\3c765db1ed5a358b855c88f3ebc4e5cb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\3c765db1ed5a358b855c88f3ebc4e5cb\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\374d04eee9fd51d7ba45d29c280696cf\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\374d04eee9fd51d7ba45d29c280696cf\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\e39ea6fc52811cacf50dc270a17f570b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\e39ea6fc52811cacf50dc270a17f570b\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\aefbed8c442a61c20bbad6e44b256226\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -250,26 +236,26 @@ INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\debug\AndroidMan
 		INJECTED from E:\DoorStep (Phone auth)\resident\android\app\src\debug\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from E:\DoorStep (Phone auth)\resident\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
 	android:name
 		ADDED from E:\DoorStep (Phone auth)\resident\android\app\src\debug\AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
-MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
 MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:30:9-34:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
 	android:exported
@@ -279,13 +265,7 @@ MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.g
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-	android:value
-		ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
-	android:name
-		ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_auth] E:\DoorStep (Phone auth)\resident\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
@@ -298,20 +278,18 @@ ADDED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_fire
 		ADDED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:cloud_firestore] E:\DoorStep (Phone auth)\resident\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-133
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] E:\DoorStep (Phone auth)\resident\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
 ADDED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
 	android:value
 		ADDED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_core] E:\DoorStep (Phone auth)\resident\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-123
-activity#io.flutter.plugins.urllauncher.WebViewActivity
-ADDED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-	android:exported
-		ADDED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-	android:theme
-		ADDED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-	android:name
-		ADDED from [:url_launcher] E:\DoorStep (Phone auth)\resident\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
@@ -335,25 +313,33 @@ ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.grad
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\ae936e42205d23ddab410b388bea9015\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\2453a49903788301b55f3eb2bce28216\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\2453a49903788301b55f3eb2bce28216\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:22-76
-meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
-ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
-	android:value
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
 ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
 	android:value
 		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-firestore:21.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\327f80c9f3f98a7dcfea92a99c12cf3b\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\d720cd64f81c10852e8fc7fe3bb24671\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
 	android:authorities
@@ -364,14 +350,6 @@ ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gr
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\b4ced6c496db4834be4ee0c551301e00\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\8ac2c71cc9965485e4fc4eaca5d4253a\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\karthikeyan\.gradle\caches\transforms-2\files-2.1\c74ab68afc46d39f3d3ffc256e981e57\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value

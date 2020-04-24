@@ -21,10 +21,13 @@ dependencies:
     sdk: flutter
   cloud_firestore: ^0.13.1+1
   firebase_auth: ^0.15.4
-  provider: ^4.0.3
+  provider: ^4.0.5
   intl: ^0.16.1
-  share: ^0.6.3+5
+  share: ^0.6.3+6
   upi_india: ^1.1.1
+  flutter_time_picker_spinner: ^1.0.6
+  secure_random: ^1.0.1
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class forpu iOS style icons.
@@ -33,6 +36,10 @@ dependencies:
   #firebase_messaging: ^6.0.9
   firebase_storage: ^3.1.1
   loading_animations: ^2.1.0
+  
+  fab_menu: ^0.0.2
+
+
 
 dev_dependencies:
   flutter_test:

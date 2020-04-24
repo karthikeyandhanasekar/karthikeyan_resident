@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class FirestoreService {
   FirestoreService._();
-  static final instance = FirestoreService._();
+  static final firestoreservice = FirestoreService._();
 
   Future<void> setdata({String path, Map<String, dynamic> data}) async {
     final reference = Firestore.instance.document(path);

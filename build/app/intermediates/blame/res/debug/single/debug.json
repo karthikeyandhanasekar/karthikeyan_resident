@@ -1,19 +1,19 @@
 [
     {
-        "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\karthikeyan\\.gradle\\caches\\transforms-2\\files-2.1\\df6cf23cc51da578d8b158de17d0c9cb\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\karthikeyan\\.gradle\\caches\\transforms-2\\files-2.1\\8ac2c71cc9965485e4fc4eaca5d4253a\\play-services-base-17.1.0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
-        "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_doorstep_icon.png.flat",
-        "source": "E:\\DoorStep (Phone auth)\\resident\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\doorstep_icon.png"
+        "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\karthikeyan\\.gradle\\caches\\transforms-2\\files-2.1\\df6cf23cc51da578d8b158de17d0c9cb\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark_normal.xml.flat",
         "source": "C:\\Users\\karthikeyan\\.gradle\\caches\\transforms-2\\files-2.1\\8ac2c71cc9965485e4fc4eaca5d4253a\\play-services-base-17.1.0\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_doorstep_icon.png.flat",
+        "source": "E:\\DoorStep (Phone auth)\\resident\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\doorstep_icon.png"
     },
     {
         "merged": "E:\\DoorStep (Phone auth)\\resident\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",

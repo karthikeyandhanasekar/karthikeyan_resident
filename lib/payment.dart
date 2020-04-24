@@ -1,15 +1,61 @@
+import 'package:doorstep_resident/Phone%20Authentication/login.dart';
+import 'package:doorstep_resident/database/database.dart';
 import 'package:upi_india/upi_india.dart';
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:intl/intl.dart';
 
 class Payment extends StatefulWidget {
   @override
   _PaymentState createState() => _PaymentState();
 }
 
-class _PaymentState extends State<Payment> {
-  GlobalKey bottomNavigationKey = GlobalKey();
-  Future _transaction;
+GlobalKey bottomNavigationKey = GlobalKey();
+Future _transaction;
+String status;
 
+/*void updatepaymentdetails(String app, BuildContext context) async {
+  try {
+    Map<String, dynamic> paymentdetails() {
+      return {
+        'Resident Number': phoneNumController.text.trim(),
+        'Transcation ID': _transaction,
+        'Transcation Status': status,
+        'UPI Reference ID': null,
+        'Amount' : 2.0,
+        'Payment date':
+            DateFormat.yMMMMEEEEd().format(DateTime.now()).toString(),
+        'Payment Time': DateFormat.jm().format(DateTime.now()).toString(),
+        'UPI App': app,
+      };
+    }
+
+    String uniqueid() => DateTime.now().toIso8601String();
+    String setpath(String residentnumber, String uniqueid) =>
+        '/payment/resident/$residentnumber/$uniqueid()';
+    final path = setpath(phoneNumController.text.trim(), uniqueid());
+    final reference = await Firestore.instance.document(path);
+    reference.setData(paymentdetails());
+    print('$path : $paymentdetails()');
+  } catch (e) {
+    print(e.message);
+    showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text("Payment Details Upload Failed"),
+            content: Text("${e.message}"),
+            actions: <Widget>[
+              FlatButton(
+                  onPressed: () => Navigator.of(context).pop(),
+                  child: Text("Ok"))
+            ],
+          );
+        });
+  }
+}*/
+
+class _PaymentState extends State<Payment> {
   Future<String> initiateTransaction(String app) async {
     UpiIndia upi = new UpiIndia(
       app: app,
@@ -28,10 +74,16 @@ class _PaymentState extends State<Payment> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+     backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
       appBar: AppBar(
-        title: Text("Payment"),
-        elevation: 20.0,
+        elevation: 0.1,
+          backgroundColor: Color.fromRGBO(58, 66, 86, 1.0),
+          title: Text(
+            "Payment",
+            style: TextStyle(
+              fontFamily: 'Roboto',
+      ),
+          ),
       ),
       body: Center(
         child: Column(
@@ -42,37 +94,41 @@ class _PaymentState extends State<Payment> {
               elevation: 15.0,
               child: Text("GOOGLE PAY",
                   style: TextStyle(
-                    color: Colors.blueGrey[100],
+                    color: Colors.blueGrey[500],
                     fontSize: 15.0,
                     textBaseline: TextBaseline.alphabetic,
                     fontWeight: FontWeight.w800,
                     fontFamily: 'Roboto',
                   )),
-              color: Theme.of(context).primaryColor,
+              color: Colors.tealAccent,
               onPressed: () {
                 _transaction = initiateTransaction(
                   UpiIndiaApps.GooglePay,
                 );
-                setState(() {});
+                setState(() {
+                  //updatepaymentdetails('Google Pay', context);
+                });
               },
             ),
             RaisedButton(
               shape: StadiumBorder(),
               elevation: 15.0,
-              child: Text("      PAYTM     ",
+              child: Text("PAYTM",
                   style: TextStyle(
-                    color: Colors.blueGrey[100],
+                    color: Colors.blueGrey[500],
                     fontSize: 15.0,
                     textBaseline: TextBaseline.alphabetic,
                     fontWeight: FontWeight.w800,
                     fontFamily: 'Roboto',
                   )),
-              color: Theme.of(context).primaryColor,
+              color: Colors.tealAccent,
               onPressed: () {
                 _transaction = initiateTransaction(
                   UpiIndiaApps.PayTM,
                 );
-                setState(() {});
+                setState(() {
+                  //updatepaymentdetails('PayTm', context);
+                });
               },
             ),
             RaisedButton(
@@ -81,18 +137,20 @@ class _PaymentState extends State<Payment> {
               focusColor: Colors.blue,
               child: Text("AMAZON PAY",
                   style: TextStyle(
-                    color: Colors.blueGrey[100],
+                    color: Colors.blueGrey[500],
                     fontSize: 15.0,
                     textBaseline: TextBaseline.alphabetic,
                     fontWeight: FontWeight.w800,
                     fontFamily: 'Roboto',
                   )),
-              color: Theme.of(context).primaryColor,
+              color: Colors.tealAccent,
               onPressed: () {
                 _transaction = initiateTransaction(
                   UpiIndiaApps.AmazonPay,
                 );
-                setState(() {});
+                setState(() {
+                  //updatepaymentdetails('Amazon Pay', context);
+                });
               },
             ),
             FutureBuilder(
@@ -106,7 +164,7 @@ class _PaymentState extends State<Payment> {
                       case UpiIndiaResponseError.APP_NOT_INSTALLED:
                         return Text('App not installed.',
                             style: TextStyle(
-                              color: Colors.blueGrey[800],
+                              color: Colors.white,
                               fontSize: 30.0,
                               textBaseline: TextBaseline.alphabetic,
                               fontWeight: FontWeight.w800,
@@ -122,7 +180,7 @@ class _PaymentState extends State<Payment> {
                         return Text(
                             'It seems like you cancelled the transaction.',
                             style: TextStyle(
-                              color: Colors.blueGrey[800],
+                              color: Colors.white,
                               fontSize: 30.0,
                               textBaseline: TextBaseline.alphabetic,
                               fontWeight: FontWeight.w800,
@@ -132,7 +190,7 @@ class _PaymentState extends State<Payment> {
                       case UpiIndiaResponseError.NULL_RESPONSE:
                         return Text('No data received',
                             style: TextStyle(
-                              color: Colors.blueGrey[800],
+                              color: Colors.white,
                               fontSize: 30.0,
                               textBaseline: TextBaseline.alphabetic,
                               fontWeight: FontWeight.w800,
@@ -142,13 +200,13 @@ class _PaymentState extends State<Payment> {
                       default:
                         UpiIndiaResponse _upiResponse;
                         _upiResponse = UpiIndiaResponse(snapshot.data);
-                        String status = _upiResponse.status;
+                        /*String*/ status = _upiResponse.status;
                         return Column(
                           children: <Widget>[
                             Text(
                               'Status: $status',
                               style: TextStyle(
-                                color: Colors.blueGrey[800],
+                                color: Colors.white,
                                 fontSize: 30.0,
                                 textBaseline: TextBaseline.alphabetic,
                                 fontWeight: FontWeight.w800,
