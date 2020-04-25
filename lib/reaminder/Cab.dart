@@ -103,7 +103,7 @@ class _RemainderFormState extends State<Cab> {
         controller: blockcontroller,
         decoration: InputDecoration(
             labelText: 'Block ID',
-            icon: Icon(Icons.domain,),
+            icon: Icon(Icons.domain,color: Colors.grey[500]),
             labelStyle: TextStyle(
               color: Colors.grey[500],
               fontWeight: FontWeight.w500,
