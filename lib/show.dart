@@ -188,7 +188,7 @@ class _ShowState extends State<Show> {
                                                   color: Colors.blueGrey[50]),
                                             ),
                                             content: Text(
-                                              'Block ID: ${datarev.blockid}\nDoor No: ${datarev.doorno}\nVisitor: ${datarev.Customername}\nVisitor number: ${datarev.Customernumber}\n Date: ${datarev.date}\nTime: ${datarev.time}\nReason: ${datarev.reason}',
+                                              'Block ID: ${datarev.blockid}\nDoor No: ${datarev.doorno}\nVisitor: ${datarev.Customername}\nVisitor number: ${datarev.Customernumber}\n Date: ${datarev.date}\nTime: ${datarev.time}\nType: ${datarev.type}\nReason: ${datarev.reason}',
                                               style: TextStyle(
                                                 color: Colors.blueGrey[50],
                                               ),
