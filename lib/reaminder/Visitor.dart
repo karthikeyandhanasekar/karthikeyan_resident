@@ -57,7 +57,7 @@ class _RemainderFormState extends State<Visitor> {
             //ths is the process where the data is stored
             blockid: blockcontroller.text.trim().toUpperCase(),
             visitorname: visitornamecontroller.text.trim(),
-            visitornumber: visitornamecontroller.text.trim(),
+            visitornumber: visitornumbercontroller.text.trim(),
             doorno: doorcontroller.text.trim(),
             id: documentid,
             arrival: _dateTime.toString(),
