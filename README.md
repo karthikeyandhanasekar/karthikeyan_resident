@@ -1,6 +1,6 @@
 # doorstep_resident
 
-A new Flutter application.
+It also an bca project where this application use by residents living in apartement
 
 ## Getting Started
 
